@@ -1,0 +1,15 @@
+var canvas = null;
+var core = null;
+var dataSource = null;
+var tileLayer = null;
+
+function init() {
+  canvas = document.getElementById('map');
+
+  core = new GGraphicsCore(canvas.getContext('2d'));
+  dataSource = new GTileLayerDataSource();
+  dataSource.grid = [['#050505', '#505050', '#050505'], ['#505050', '#050505', '#505050'], ['#050505', '#505050', '#050505']];
+
+  tileLayer = new GTileLayer(dataSource);
+  core.addLayer(tileLayer);
+}

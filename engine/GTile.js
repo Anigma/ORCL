@@ -2,7 +2,6 @@ GTile = Class.create(GEntity, {
   initialize: function($super) {
     $super();
 
-    this.position = {x: 0, y: 0};
     this.size = {width: 19, height: 19};
   },
   setPosition: function(position) {

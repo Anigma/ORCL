@@ -93,7 +93,6 @@ function drawCells(canvas) {
           ctx.fillStyle = '#1A2687';
           break;
       }
-
       
       //ctx.fillRect( x * (CELL_WIDTH+1), y * (CELL_HEIGHT+1), CELL_WIDTH, CELL_HEIGHT );
       ctx.drawImage(tiles[mapCell], x * (CELL_WIDTH+1), y * (CELL_HEIGHT+1), CELL_WIDTH, CELL_HEIGHT );

@@ -6,21 +6,12 @@
   <script src="engine/GEvent.js"></script>
   <script src="engine/GEventManager.js"></script>
   <script src="engine/GCoreObject.js"></script>
-  <script src="engine/GInputController.js"></script>
   <script src="engine/GEntity.js"></script>
-  <script src="engine/GTimer.js"></script>
   <script src="engine/GGraphicsCore.js"></script>
   <script src="engine/GLayer.js"></script>
   <script src="engine/GTile.js"></script>
-  <script src="engine/GColorTile.js"></script>
-  <script src="engine/GImageTile.js"></script>
-  <script src="engine/GImage.js"></script>
   <script src="engine/GTileLayer.js"></script>
   <script src="engine/GTileLayerDataSource.js"></script>
-  <script src="engine/GScrollLayer.js"></script>
-  <script src="engine/GScrollLayerDataSource.js"></script>
-  
-  <script src="game/CMScrollLayerRandomDataSource.js"></script>
   <script src="game/CMTileLayerRandomDataSource.js"></script>
   <script src="actions.js"></script>
 </head>
@@ -28,9 +19,6 @@
 <body>
   
   <canvas id="map" width="1200" height="550">
-  </canvas>
-  
-  <canvas id="buffer" width="1200" height="550" style="display: none">
   </canvas>
   
 </body>
